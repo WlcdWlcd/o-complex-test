@@ -1,0 +1,16 @@
+
+
+/* div{
+    width: 100%;
+    height: flex;
+    background-color: #777777;
+    text-align: center;
+    color: #fff;
+    font-size:96px;
+    border-radius: 15px;
+} */
+
+div {
+    height: flex;
+    width: 100%;
+}
