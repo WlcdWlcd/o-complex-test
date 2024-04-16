@@ -62,6 +62,7 @@ class Products extends React.Component {
             const price = item.price
 
             return <Product
+                key = {id}
                 id={id}
                 image_url={image_url}
                 title={title}

@@ -57,7 +57,7 @@ class Reviews extends React.Component {
                 <div className="grid  md:grid-cols-2 max-w-5xl mx-5 gap-5 content-center mt-5 justify-items-center min-w-80">
                     {
                         rewiews.map(item => {
-                            return <Review data = {item.text}/>
+                            return <Review key = {item.id} data = {item.text}/>
                         }
                         )
                     }
